@@ -1,0 +1,287 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* ul li a{
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+
+
+}
+ul li{
+  list-style-type: none;
+  display: inline;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+} */
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  padding-left: 20px;
+  border-bottom:1px solid olivedrab; 
+  width: 75%;
+  margin-left: 9%;
+  text-decoration: none;
+  padding-top: 30px;
+  font-size: larger;
+}
+
+li{
+  display: inline;
+  padding: 20px;
+
+
+}
+.and{
+  margin: none;
+  color: #000;
+  
+}
+.and li:hover{
+  background-color: rgba(214, 235, 140, 0.671);
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  
+}
+a{
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
+.cone{
+color: rgb(250, 59, 139);
+margin-right: 65%;
+}
+.the{
+  font-size: 190%;
+  color: rgb(3, 44, 3);
+}
+
+body{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgb(0, 0, 0,0.5)), url('hll.jpg');
+    background-size:cover;
+}
+.h1{
+  color: rgb(22, 5, 121);
+  padding-top: 50px;
+}
+#hm{
+  color: rgb(50, 227, 250);
+  padding-top: 50px;
+  font-size: large;
+}
+.tes{
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(52, 163, 253);
+  margin: 20px;
+  padding: 20px;
+}
+.tmon h1{
+  color: rgb(43, 18, 182);
+}
+.tmon h1 :hover{
+color: chartreuse;
+border-radius: 10px;
+}
+.tmon{
+  border: 2px solid rgb(241, 226, 226);
+}
+
+#cone{
+  color: rgb(29, 32, 221);
+  padding: 30px;
+}
+/* .blog-form{
+  padding: 30px;
+} */
+.n{
+  /* margin-right: 430px;
+ padding: 20px; */
+  display: flex;
+  text-align: 50%;
+  margin-left: 500px;
+  color: gold;
+
+}
+.three{
+  display: flex;
+/* align-items: center;  */
+
+width: 500px;
+margin: 9px;
+margin-left: 500px;
+
+}
+.hi{
+  background-color: rgb(47, 165, 167);
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  color: rgb(3, 3, 3);
+  cursor: pointer;
+}
+/* #i{
+display: flex;
+display: inline-block;
+ 
+ 
+
+} */
+.carousel-inner{
+padding-top: 90px;
+height: 900px;
+width: 1600px;
+}
+.bang{
+  border: 2px solid burlywood;
+  padding: 30px;
+}
+.bang h1{
+  padding-top: 20px;
+  padding-bottom: 15px;
+ color: cornflowerblue;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bang p{
+  color: aqua;
+  font-family: 'Courier New', Courier, monospace;
+}
+.dsgn{
+  border: 2px solid rgb(245, 242, 239);
+  padding: 40px;
+}
+.dsgn h2{
+  padding-top: 25px;
+  padding-bottom: 20px;
+  font-style: oblique;
+  color: rgb(104, 114, 250);
+}
+.dsgn h4{
+  padding-top: 10px;
+  padding-bottom: 30px;
+  color: rgb(66, 179, 245);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+.dsgn button{
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(59, 6, 83);
+  color: #fff;
+}
+.dsgn button :hover{
+  background-color: tomato;
+}
+
+.imgs{
+  border: 2px solid rgb(136, 130, 130);
+}
+.imgs h1{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: rgb(105, 219, 247);
+}
+.int{
+  
+  padding: 40px;
+}
+.int h1{
+  font-family: fantasy;
+  color: rgb(116, 81, 243);
+}
+.int h5{
+  padding: 20px;
+  font-style: italic;
+  color: rgb(22, 78, 197);
+}
+.int p{
+  color: rgb(84, 166, 218);
+  font-size: larger;
+  font-family: inherit;
+}
+
+#on{
+  padding: 20px;
+  color: rgb(201, 243, 49);
+  font-size: large;
+  font-weight: bold;
+}
+#in{
+  background-color: burlywood;
+}
+.frm{
+  padding: 30px;
+  border: 2px solid rgb(88, 245, 88);
+  margin-right: 30%;
+  margin-left: 30%;
+  margin-top: 2%;
+  margin-bottom: 6%;
+  background-color: lavenderblush;
+  background-image: url('im6.jpg');
+  background-size: cover;
+}
+#bt{
+  padding: 10px;
+  margin-top: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+color: rgb(71, 190, 236);
+background-color: lightseagreen;
+}
+#cn{
+  color: rgb(24, 10, 223);
+  padding: 25px;
+  font-family: cursive;
+}
+#cn :hover{
+  background-color: gold;
+  color: black;
+  border-radius: 20px;
+}
+#mg{
+  padding: 20px;
+  color: aqua;
+  
+}
+.mm{
+  border: 2px solid rgb(184, 132, 114);
+}
+#mn{
+  padding: 10px;
+  color: rgb(51, 2, 87);
+  font-weight: bold;
+}
+.add{
+  border: 2px solid rgb(247, 117, 73);
+}
+#m1{
+  padding: 15px;
+  color: rgb(5, 195, 253);
+}
+#m2{
+  padding: 10px;
+  color: rgb(35, 3, 53);
+}
+
+.jai{
+  padding: 2px;
+  cursor: pointer;
+}
+#all{
+  color: silver;
+  padding-bottom: 20px;
+}
